@@ -2,6 +2,27 @@
 
 > https://github.com/jpush/jverify-flutter-plugin
 
+## 安装
+
+在工程 pubspec.yaml 中加入 dependencies
+
++ github 集成
+
+```
+dependencies:
+  jverify:
+    git:
+      url: git://github.com/jpush/jverify-flutter-plugin.git
+      ref: master
+```
+
++ pub 集成
+
+```
+dependencies:
+  jverify: 0.6.22
+```
+
 ## 配置
 
 ### Android
